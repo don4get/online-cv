@@ -1,7 +1,3 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
     about: False
     education: True
@@ -27,13 +23,13 @@ sidebar:
         level: Professional
 
     interests:
-      - item: Flying (Private Pilot license)
+      - item: Flying | owner of a Private Pilot License
         link:
 
-      - item: All kinds of sports (judo, boxing, skiing, climbing, moutain biking)
+      - item: Doing sports | judo, boxing, skiing, climbing, moutain biking
         link:
 
-      - item: Getting involved in humanitarian projects
+      - item: Getting involved in humanitarian projects | active member of Drone Adventures
         link: http://droneadventures.org/
 
 career-profile:
@@ -89,8 +85,8 @@ projects:
     title: SIPPY
     link: https://github.com/CPCLAB-UNIPI/SIPPY
     intro: >
-      I am currently trying to help this new python library focused on system identification. 
-      The main goal is to get a serious alternative to the system identification toolbox in Matlab.
+      I am currently helping with the development of this new Python library for system identification. 
+      Its main goal is to provide a valid alternative to the system identification toolbox of Matlab.
 
 skills:
     title: Skills &amp; Proficiency

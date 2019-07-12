@@ -3,7 +3,7 @@ sidebar:
     education: False
 
     # Profile information
-    name: Anthony De Bortoli
+    name: Anthony    De Bortoli
     tagline: Developer
     avatar: profile.png
 
@@ -39,7 +39,7 @@ career-profile:
 
 education:
     - degree: MSc in Aeronautic Engineering
-      university: ENSICA, part of the Institut Supérieur de l'Aéronautique et de l'Espace, also known as SUPAERO, Toulouse, France.
+      university: ISAE-SUPAERO, Toulouse, France.
       time: 2012 - 2014
       details: |
         During my years in this institute, I fueled my passion for everything able to fly. 

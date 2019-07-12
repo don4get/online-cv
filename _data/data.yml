@@ -1,6 +1,6 @@
 sidebar:
     about: False
-    education: True
+    education: False
 
     # Profile information
     name: Anthony De Bortoli
@@ -23,13 +23,13 @@ sidebar:
         level: Professional
 
     interests:
-      - item: Flying | owner of a Private Pilot License
+      - item: Flying - Owner of a Private Pilot License
         link:
 
-      - item: Doing sports | judo, boxing, skiing, climbing, moutain biking
+      - item: Doing sports - Judo, boxing, skiing, climbing, moutain biking
         link:
 
-      - item: Getting involved in humanitarian projects | active member of Drone Adventures
+      - item: Getting involved in humanitarian projects - Active member of Drone Adventures
         link: http://droneadventures.org/
 
 career-profile:
@@ -68,25 +68,29 @@ experiences:
         WIP
 
 projects:
-    title: python-control
-    link: https://github.com/python-control/python-control
+    title: Projects
     intro: >
-      I got involved in the development in the python control library towards the end of the 2018.
-      This library is a concrete alternative the Control Toolbox from Matlab, in order to design systems control laws.
-      I helped the main development team comply with pep recommandations and suggested some features to improve robustness and testability 
-      in the library.
-      
-    title: limbo
-    link: https://github.com/don4get/limbo
-    intro: >
-      I wrote a small UAV simulator in python, starting from a deprecated OSS project.
-      This project is functional and allows to design control laws for small fixedwing UAVs.
+      I started getting involved in some projects aiming to improve signal processing and control theory support in Python
+    assignments:
+      - title: python-control
+        link: https://github.com/python-control/python-control
+        tagline: |
+          "I got involved in the development in the python control library towards the end of the 2018.
+          This library is a concrete alternative the Control Toolbox from Matlab, in order to design systems control laws.
+          I helped the main development team comply with pep recommandations and suggested some features to improve robustness and testability 
+          in the library."
 
-    title: SIPPY
-    link: https://github.com/CPCLAB-UNIPI/SIPPY
-    intro: >
-      I am currently helping with the development of this new Python library for system identification. 
-      Its main goal is to provide a valid alternative to the system identification toolbox of Matlab.
+      - title: limbo
+        link: https://github.com/don4get/limbo
+        tagline: |
+          "I wrote a small UAV simulator in python, starting from a deprecated OSS project.
+          This project is functional and allows to design control laws for small fixedwing UAVs."
+
+      - title: sippy
+        link: https://github.com/CPCLAB-UNIPI/SIPPY
+        tagline: |
+          "I am currently helping with the development of this new Python library for system identification. 
+          Its main goal is to provide a valid alternative to the system identification toolbox of Matlab."
 
 skills:
     title: Skills &amp; Proficiency

@@ -39,7 +39,9 @@ career-profile:
 
 education:
     - degree: MSc in Aeronautic Engineering
-      university: ISAE-SUPAERO, Toulouse, France.
+      university: ISAE-SUPAERO 
+      link: https://www.isae-supaero.fr
+      place: Toulouse, France
       time: 2012 - 2014
       details: |
         During my years in this institute, I fueled my passion for everything able to fly. 
@@ -51,6 +53,8 @@ education:
 
     - degree: MSc in Control System Design
       university: Politecnico di Milano
+      link: https://www.polimi.it/
+      place: Milan, Italy
       time: 2014 - 2016
       details: |
         
@@ -84,16 +88,16 @@ projects:
       - title: python-control
         link: https://github.com/python-control/python-control
         tagline: |
-          I got involved in the development in the python control library towards the end of the 2018.
-          This library is a concrete alternative the Control Toolbox from Matlab, in order to design systems control laws.
-          I helped the main development team comply with pep recommendations and suggested some features to improve robustness and testability 
-          in the library.
+          I participated in the development of the python control library in the second semester of the 2018. 
+          This library is a valuable alternative to the Control Toolbox of Matlab, meant to design the control laws of physical systems. 
+          Some of the contributions are the integration of the pep recommendations and 
+          the improvement of the robustness and testability of the library.
 
       - title: sippy
         link: https://github.com/CPCLAB-UNIPI/SIPPY
         tagline: |
-          I am currently helping with the development of this new Python library for system identification. 
-          Its main goal is to provide a valid alternative to the system identification toolbox of Matlab.
+          I am currently involved in the development of this new Python library for system identification. 
+          Its main goal is to provide an alternative to the System Identification Toolbox of Matlab.
       
       - title: limbo
         link: https://github.com/don4get/limbo
@@ -104,9 +108,11 @@ projects:
       - title: hummingbird
         link: https://github.com/don4get/hummingbird
         tagline: |
-          Fresh restart of the previous project limbo, given that Pr. R. Beard created dedicated templates to create a simulator
-          for fixedwing UAVs.
-          My goal is to provide support for system identification and MIMO control in the simulator.
+          This is a light-weight UAV simulator, that I wrote in python. 
+          This project is inspired by the work of Prof. R. Beard and Prof. R. McLain from the Princeton University, 
+          who formalized the physical description and the control laws of a UAV.  
+          The goal is to provide support for system identification, MIMO control, 
+          RC piloting and add tests and documentation to make the simulator usable by the large public.
 
 skills:
     title: Skills &amp; Proficiency

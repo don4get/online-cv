@@ -26,7 +26,7 @@ sidebar:
       - item: Flying - Owner of a Private Pilot License
         link:
 
-      - item: Doing sports - Judo, boxing, skiing, climbing, moutain biking
+      - item: Doing sports - Judo, boxing, skiing, climbing, mountain biking
         link:
 
       - item: Getting involved in humanitarian projects - Active member of Drone Adventures
@@ -35,7 +35,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      WIP
+      Technology enthusiast, I enjoy working on complex problems involving physics and programming. 
 
 education:
     - degree: MSc in Aeronautic Engineering
@@ -43,10 +43,11 @@ education:
       time: 2012 - 2014
       details: |
         During my years in this institute, I fueled my passion for everything able to fly. 
-        I obtained my Private Pilote License, thanks to funds from the University. 
-        I also joined the Micro-UAV club where I learnt how to make my own quadcopter, spending so many nights trying to control it properly.
+        I obtained my Private Pilot License, thanks to funds from the University. 
+        I also joined the Micro-UAV club where I learnt how to make my own quadcopter, spending so many nights trying to 
+        control it properly.
         These sides projects helped me to establish a clear sense of the high quality courses I was taught. 
-        During the second year, I specialized in automatics and left for a double degree in Milano.
+        During the second year, I specialized in automatics and left for a double degree in Milan.
 
     - degree: MSc in Control System Design
       university: Politecnico di Milano
@@ -58,14 +59,22 @@ experiences:
     - role: System Engineer
       time: Aug 2017 - Present
       company: senseFly, Cheseaux-sur-Lausanne, Switzerland
+      link: https://www.sensefly.com/
       details: |
-        WIP
+        During my two years as a control systems engineer and developer, I had the unique opportunity to get involved 
+        in the development of the new eBeeX. In particular, I was responsible to stabilize 
+        its flight during the early stage of the project. During this stage I learnt a lot in embedded programming, as well as
+        in data analysis.  
+        After that I managed to give some help to improve our code quality, improving code architecture and 
+        working on some continuous integrations improvements.
 
     - role: Consulting engineer
       time: Jan 2017 - Aug 2017
       company: Dassault Aviation, Istres, France
+      link: https://www.dassault-aviation.com/
       details: |
-        WIP
+        I gave my help to organize and manage electric ground tests on three test campaigns. After these tests, I was in charge 
+        of analyzing measured data and produced some reports resuming my analysis.
 
 projects:
     title: Projects
@@ -75,22 +84,29 @@ projects:
       - title: python-control
         link: https://github.com/python-control/python-control
         tagline: |
-          "I got involved in the development in the python control library towards the end of the 2018.
+          I got involved in the development in the python control library towards the end of the 2018.
           This library is a concrete alternative the Control Toolbox from Matlab, in order to design systems control laws.
-          I helped the main development team comply with pep recommandations and suggested some features to improve robustness and testability 
-          in the library."
-
-      - title: limbo
-        link: https://github.com/don4get/limbo
-        tagline: |
-          "I wrote a small UAV simulator in python, starting from a deprecated OSS project.
-          This project is functional and allows to design control laws for small fixedwing UAVs."
+          I helped the main development team comply with pep recommendations and suggested some features to improve robustness and testability 
+          in the library.
 
       - title: sippy
         link: https://github.com/CPCLAB-UNIPI/SIPPY
         tagline: |
-          "I am currently helping with the development of this new Python library for system identification. 
-          Its main goal is to provide a valid alternative to the system identification toolbox of Matlab."
+          I am currently helping with the development of this new Python library for system identification. 
+          Its main goal is to provide a valid alternative to the system identification toolbox of Matlab.
+      
+      - title: limbo
+        link: https://github.com/don4get/limbo
+        tagline: |
+          I wrote a small UAV simulator in python, starting from a deprecated OSS project.
+          This project is functional and allows to design control laws for small fixedwing UAVs.
+
+      - title: hummingbird
+        link: https://github.com/don4get/hummingbird
+        tagline: |
+          Fresh restart of the previous project limbo, given that Pr. R. Beard created dedicated templates to create a simulator
+          for fixedwing UAVs.
+          My goal is to provide support for system identification and MIMO control in the simulator.
 
 skills:
     title: Skills &amp; Proficiency

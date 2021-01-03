@@ -22,6 +22,9 @@ sidebar:
       - idiom: Italian
         level: Professional
 
+      - idiom: German
+        level: beginner
+
     interests:
       - item: Flying - Owner of a Private Pilot License
         link:
@@ -60,8 +63,18 @@ education:
         
 
 experiences:
+    - role: Mechatronics engineer
+    - time: Nov. 2019 - Today
+    - company: GreenGT, Aclens, Switzerland
+    details: |
+      Development of the firmware of a fuel cell, written in C/Matlab/Simulink.
+      Integration and calibration of embedded systems into hydrogen vehicles: water pumps, temperature/pressure sensors, flowmeters, motors and their inverters. 
+
+Integration and calibration of embedded systems into hydrogen vehicles: water pumps, temperature/pressure sensors, flowmeters, motors and their inverters. 
+
+
     - role: System Engineer
-      time: Aug 2017 - Present
+      time: Aug 2017 - Sept 2019
       company: senseFly, Cheseaux-sur-Lausanne, Switzerland
       link: https://www.sensefly.com/
       details: |
